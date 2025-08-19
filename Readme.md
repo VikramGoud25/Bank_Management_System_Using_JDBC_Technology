@@ -1,7 +1,7 @@
 # 🏦 Bank Management System (Java + JDBC + MySQL)
 
 ## 📌 Overview
-This is a **console-based Bank Management System** developed in Java using **JDBC** to connect to a MySQL database.  
+This is a **console based Bank Management System** developed in Java using **JDBC** to connect to a MySQL database.  
 It supports **Customer Registration**, **Customer Login**, and **Admin Login**, along with proper exception handling and database operations.
 
 ---
@@ -13,7 +13,6 @@ It supports **Customer Registration**, **Customer Login**, and **Admin Login**, 
 - **Validation for Duplicate Email and Mobile Numbers**
 - **Custom Exceptions for Better Error Handling**
 - **MySQL Database Integration with JDBC**
-- **Menu-driven Console Interface**
 
 ---
 
@@ -99,18 +98,6 @@ Connection connection = DriverManager.getConnection(
     "jdbc:mysql://localhost:3306/bank_management_system?user=root&password=YOUR_PASSWORD"
 );
 ```
-
----
-
-### 4️⃣ Compile & Run the Project
-```bash
-# Compile
-javac -d bin src/com/bank/**/*.java
-
-# Run
-java -cp bin com.bank.main.BankMainClass
-```
-
 ---
 
 ## 📜 Exception Classes
